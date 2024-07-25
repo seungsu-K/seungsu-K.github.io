@@ -176,10 +176,10 @@ banner:
   #   loop: true              # Video loop
   #   volume: 0               # Video volume (100% is 1.0)
   #   start_at: 0             # Video start time
-  image: null # Image banner source
+  image: #null # Image banner source
   opacity: 1.0 # Banner opacity (100% is 1.0)
   background: "#353535" # Banner background (Could be a image)
-  height: "200px" # Banner default height
+  height: "350px" # Banner default height
 #   min_height: null        # Banner minimum height
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
