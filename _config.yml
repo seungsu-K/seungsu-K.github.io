@@ -79,26 +79,26 @@ lang: "ko" # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
-translate_langs:
-  - lang: en
-    img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
-    text: English
-  #
-  #   - lang: fr
-  #     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
-  #     text: French
-  #
-  #   - lang: zh-CN
-  #     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
-  #     text: Chinese(Simple)
-  #
-  #   - lang: ja
-  #     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
-  #     text: Japanese
-  #
-  - lang: ko
-    img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
-    text: Korean
+# translate_langs:
+#   - lang: en
+#     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
+#     text: English
+#
+#   - lang: fr
+#     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
+#     text: French
+#
+#   - lang: zh-CN
+#     img: https://cdn.countryflags.com/thumbs/china/flag-400.png
+#     text: Chinese(Simple)
+#
+#   - lang: ja
+#     img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
+#     text: Japanese
+#
+# - lang: ko
+#   img: https://cdn.countryflags.com/thumbs/south-korea/flag-400.png
+#   text: Korean
 #
 #   - lang: ru
 #     img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
@@ -166,7 +166,7 @@ defaults:
   home:
     heading: "My dev blog"
     subheading: "To being FE developer"
-    # banner: "Your image url"
+    banner: ""
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -178,8 +178,8 @@ banner:
   #   start_at: 0             # Video start time
   image: null # Image banner source
   opacity: 1.0 # Banner opacity (100% is 1.0)
-  background: "rgba(0, 0, 0, 0.8)" # Banner background (Could be a image)
-  height: "400px" # Banner default height
+  background: "#353535" # Banner background (Could be a image)
+  height: "200px" # Banner default height
 #   min_height: null        # Banner minimum height
 #   heading_style: null     # Custom heading style (e.g. "font-weight: bold; text-decoration: underline")
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
