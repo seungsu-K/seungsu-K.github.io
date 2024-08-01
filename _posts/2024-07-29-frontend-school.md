@@ -20,7 +20,7 @@ Vite : ESbuild 기반으로 만들어진 모던 프론트엔드 개발 도구
 - ES Module을 넘어 다양한 기능을 제공
 - Webpack에 비해 속도가 빠름
 
-[Vite를 사용해야 하는 이유](https://ko.vitejs.dev/guide/why)
+[Vite를 사용해야 하는 이유](https://ko.vitejs.dev/guide/why) <br />
 [다른 빌드 도구와의 차이점](https://ko.vitejs.dev/guide/comparisons.html)
 
 ### Vite auto scaffolding
@@ -57,7 +57,7 @@ https://ko.vitejs.dev/guide/#scaffolding-your-first-vite-project
 
     - React, React-dom 설치
       `pnpm add react react-dom`
-      <br />
+      <br /><br />
     - @types 설치
       `pnpm add @types/react @types/react-dom @types/node -D`
 
@@ -90,7 +90,7 @@ https://ko.vitejs.dev/guide/#scaffolding-your-first-vite-project
 
     - ESLint 플러그인 설치
       `pnpm add eslint-plugin-react-hooks eslint-plugin-react-refresh -D`
-      <br />
+      <br /><br />
     - 절대 경로 설정
       vite.config.js 에서 alias 설정
 
