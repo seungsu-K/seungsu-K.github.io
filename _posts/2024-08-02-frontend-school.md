@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 8/2(금) React 수업
-categories: Frontend School
+categories: [Frontend School]
 tags: [class]
 ---
 
