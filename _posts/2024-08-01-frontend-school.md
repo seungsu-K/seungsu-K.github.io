@@ -5,6 +5,8 @@ categories: Frontend School
 tags: [class]
 ---
 
+# 8/1(목) React 수업
+
 데이터에는 record마다 id나 index가 있는 것이 좋은데,
 
 클라이언트에서 생성한 데이터나 서버에서 받아온 데이터에 id가 없다면 재가공해서 사용하는 것이 좋다.
