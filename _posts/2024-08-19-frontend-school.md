@@ -204,7 +204,7 @@ function App() {
 export default App;
 ```
 
-### <link>
+### `<link>`
 
 페이지의 경로를 설정할 수 있는 요소로, <a> 요소와 비슷하지만 새로운 페이지를 불러오지 않고 리렌더링 함
 
@@ -231,7 +231,7 @@ function Navigation() {
 }
 ```
 
-### <Route>
+### `<Route>`
 
 경로와 해당 경로에서 렌더링할 요소(컴포넌트, 페이지)를 지정
 
@@ -246,7 +246,7 @@ function AppRoutes() {
 }
 ```
 
-### <RootLayout>
+### `<RootLayout>`
 
 Header, Footer, Navigation 등을 포함하는 애플리케이션의 공통 레이아웃을 정의
 
@@ -263,11 +263,11 @@ function RootLayout() {
 export default RootLayout;
 ```
 
-### <Outlet>
+### `<Outlet>`
 
 부모 경로 내 자식 경로를 설정했을 경우 `<Outlet>` 요소로 자식 컴포넌트가 렌더링될 출구를 지정
 
-### <NavLink>
+### `<NavLink>`
 
 "active", "pending", or "transitioning” 등의 상태를 알 수 있는 <Link> 요소의 종류, 상태를 파악해 스타일을 지정할 수 있음
 
